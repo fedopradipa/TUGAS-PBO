@@ -41,7 +41,7 @@ class AplikasiAmbilTeksDariGambar:
             self.canvas_gambar.config(
                 width=photo.width(), height=photo.height())
             self.canvas_gambar.create_image(0, 0, anchor=tk.NW, image=photo)
-            self.canvas_gambar.image = photo  # to prevent garbage collection
+            self.canvas_gambar.image = photo 
             self.image_path = file_path
 
     def ambil_teks(self):
