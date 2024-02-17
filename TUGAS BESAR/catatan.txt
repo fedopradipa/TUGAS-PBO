@@ -1,0 +1,4 @@
+cara menjalankan program
+
+1.run file database.py
+2.lalu cukup run file main.py 
